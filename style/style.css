@@ -98,3 +98,29 @@ header{
 }
     
 /* plans style ends here */
+
+/* contact section style start here */
+.contact{
+    background-image: url('../images/watch.png'),url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 130px 230px;
+}
+.contact-title{
+    padding: 50px 600px 0px 60px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.btn{
+    border-radius: 5px;
+    background: #FFF;
+    padding: 20px 23px;
+    border: none;
+    text-align: right;
+    margin: 24px 0px 60px 60px;
+    font-size: 20px;
+    color: #005FAC;
+}
+/* contact section style start here */
