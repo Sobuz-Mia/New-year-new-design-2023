@@ -11,59 +11,62 @@ p ,.list-item {
     line-height: 26px;
     color: #FFF;
 }
-
-.primary-title{
-    color:#151414;
-    font-size: 40px;
-    font-weight: 700;
-}
 .primary-btn{
     border-radius: 5px;
     background: #FFF;
     padding: 20px 25px;
     border: none;
     text-align: right;
-    margin-left: 380px;
+    margin-left: 350px;
+    margin-top: 32px;
 }
-/* header style start here */
+.primary-title{
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+/* header section style start here */
 header{
-    background-image: url('../images/banner/banner3.png');
+    background-image: url('images/banner/banner3.png');
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
+    background-size: cover;
     min-height: 100%;
 }
+.header-container{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
 .header-info{
-    padding: 216px 230px 360px 840px;
+   margin: 200px 112px 150px 685px;
 }
 .head-title{
     color: #FFF;
     text-align: right;
     font-size: 65px;
     font-weight: 700;
+    margin-bottom: 24px;
+    padding: 10px;
 }
 .head-description{
     text-align: right;
-    margin: 25px 0px;
 }
+/* header ends here */
 
-/* header style start here */
-
-/* about style start here */
+/* about section start here */
 .about-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
-    margin: 140px 320px 0px 270px;
+    gap: 30px;
+    margin: 130px 100px 0px 220px
 }
 .about-description,.list-item{
     color: #444343;
     margin: 24px 0px 12px 0px;
 }
-
-
-/* about style ends here */
+/* about section ends here */
 
 /* plans style start here */
 .plans{
@@ -97,16 +100,16 @@ header{
     font-weight: 700;
     margin: 24px 0px 16px 0px;
 }
-    
-/* plans style ends here */
+
+/* Plans section ends here */
 
 /* contact section style start here */
 .contact{
-    background-image: url('../images/watch.png'),url('./images/gradient1.png');
-    background-repeat: no-repeat;
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat repeat;
     background-size: cover;
     background-position: center center;
-    margin: 130px 230px;
+    margin: 0px 77px;
 }
 .contact-title{
     padding: 50px 600px 0px 60px;
@@ -125,7 +128,6 @@ header{
     color: #005FAC;
 }
 /* contact section style start here */
-
 /* footer design start here */
 footer{
     background: #151414;
@@ -146,7 +148,6 @@ footer{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    margin-right: 330px;
     margin-bottom: 24px;
 
 }
